@@ -36,6 +36,12 @@ public class Main {
 
         // Use the With annotation to facilitate changing properties.
         Student jessica2 = jessica.withId(124);
+        System.out.println();
         System.out.println(jessica2);
+
+        // Bonus
+        UniversityService universityService = new UniversityService();
+        System.out.println();
+        System.out.println(universityService.averageGradeOfCourse(math));
     }
 }
